@@ -57,6 +57,5 @@ def download_image(link, output_dir, image_name, timeout=60):
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 label_dir = images.get_path()
-label = 'bear'
 
-download_image(link, label_dir, f'{label}_{labels_ctr[label]}')
+download_image(link, label_dir, 'bear')
