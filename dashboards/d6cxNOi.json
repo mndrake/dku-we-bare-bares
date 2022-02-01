@@ -29,32 +29,8 @@
             "box": {
               "top": 0,
               "left": 4,
-              "width": 6,
-              "height": 3
-            },
-            "clickAction": "OPEN_INSIGHT",
-            "tileParams": {
-              "showName": true,
-              "showDescription": true,
-              "showCustomFields": true,
-              "showStorageType": false,
-              "showMeaning": false,
-              "showProgressBar": false
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "pmissFh",
-            "insightType": "dataset_table",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": -1,
-              "left": -1,
-              "width": 2,
-              "height": 2
+              "width": 4,
+              "height": 4
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -81,11 +57,11 @@
   "name": "We Bare Bares\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643754650333
+    "lastModifiedOn": 1643754665848
   },
   "creationTag": {
     "versionNumber": 0,
