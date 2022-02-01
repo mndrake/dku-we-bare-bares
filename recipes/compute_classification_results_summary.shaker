@@ -26,8 +26,38 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ObjectFoldProcessor",
+      "params": {
+        "emitNonObject": false,
+        "column": "prediction",
+        "emitEmptyObject": false
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "error"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +65,23 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "polar": 155,
+    "grizzly": 141,
+    "images": 100,
+    "prediction_teddy": 162,
+    "panda": 155,
+    "prediction_polar": 162,
+    "black": 141,
+    "prediction_panda": 162,
+    "error": 100,
+    "prediction_val": 155,
+    "prediction_black": 162,
+    "prediction_key": 120,
+    "prediction": 300,
+    "prediction_grizzly": 176,
+    "teddy": 148
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
