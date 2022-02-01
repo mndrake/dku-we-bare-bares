@@ -35,50 +35,14 @@
           "behavior": "INLINE_AUTO_SAVE",
           "params": [
             {
-              "name": "variable1",
+              "name": "image_url",
               "type": "STRING",
-              "label": "nice label in the form",
-              "description": "Help text for the variable",
-              "mandatory": false,
+              "label": "image url to predict",
+              "description": "Paste an image URL of a bear (polar, panda, grizzly, black, or teddy)",
+              "mandatory": true,
               "canSelectForeign": false,
               "markCreatedAsBuilt": false,
               "allowDuplicates": true,
-              "getChoicesFromPython": false,
-              "canCreateDataset": false
-            },
-            {
-              "name": "variable2",
-              "type": "INT",
-              "label": "another label",
-              "mandatory": false,
-              "canSelectForeign": false,
-              "markCreatedAsBuilt": false,
-              "allowDuplicates": true,
-              "getChoicesFromPython": false,
-              "canCreateDataset": false
-            },
-            {
-              "name": "variable3",
-              "type": "SELECT",
-              "label": "some selector",
-              "mandatory": false,
-              "canSelectForeign": false,
-              "markCreatedAsBuilt": false,
-              "allowDuplicates": true,
-              "selectChoices": [
-                {
-                  "value": "val1",
-                  "label": "First",
-                  "showInColumnPreview": false,
-                  "selected": false
-                },
-                {
-                  "value": "val2",
-                  "label": "Second",
-                  "showInColumnPreview": false,
-                  "selected": false
-                }
-              ],
               "getChoicesFromPython": false,
               "canCreateDataset": false
             }
