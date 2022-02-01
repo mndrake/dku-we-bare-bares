@@ -1,0 +1,31 @@
+{
+  "type": "managed-folder_content",
+  "params": {
+    "folderSmartId": "dgYV6MxO",
+    "filePath": "/bear.jpg",
+    "isDirectory": false
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "Content of folder images_to_classify/bear.jpg",
+  "dashboardCreationId": "d6cxNOi",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643754095965
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643754095965
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
