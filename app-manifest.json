@@ -52,6 +52,10 @@
         {
           "scenarioId": "predict-image",
           "type": "SCENARIO_RUN"
+        },
+        {
+          "format": "PDF_DOCUMENT",
+          "type": "DOWNLOAD_RMARKDOWN"
         }
       ]
     }
