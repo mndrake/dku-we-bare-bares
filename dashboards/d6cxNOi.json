@@ -81,11 +81,11 @@
   "name": "We Bare Bares\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643754649563
+    "lastModifiedOn": 1643754650333
   },
   "creationTag": {
     "versionNumber": 0,
