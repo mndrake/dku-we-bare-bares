@@ -48,6 +48,10 @@
             }
           ],
           "type": "PROJECT_VARIABLES_EDIT"
+        },
+        {
+          "scenarioId": "predict-image",
+          "type": "SCENARIO_RUN"
         }
       ]
     }
