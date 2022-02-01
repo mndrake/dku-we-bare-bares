@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643754370140
+    "lastModifiedOn": 1643754578461
   },
   "creationTag": {
     "versionNumber": 0,
@@ -91,18 +91,12 @@
         "type": "string"
       },
       {
-        "name": "prediction",
-        "type": "map",
-        "mapKeys": {
-          "type": "string"
-        },
-        "mapValues": {
-          "type": "string"
-        }
+        "name": "prediction_key",
+        "type": "string"
       },
       {
-        "name": "error",
-        "type": "bigint"
+        "name": "prediction_val",
+        "type": "double"
       }
     ],
     "userModified": true
