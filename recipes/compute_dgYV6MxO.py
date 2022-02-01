@@ -17,8 +17,9 @@ from dataiku import pandasutils as pdu
 # Write recipe outputs
 images = dataiku.Folder("dgYV6MxO")
 
+
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-link = dataiku.Project().get_variables()['standard']['image_url']
+link = dataiku.get_custom_variables()["image_url"]
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 def download_image(link, output_dir, image_name, timeout=60):
