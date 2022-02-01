@@ -54,8 +54,8 @@
           "type": "SCENARIO_RUN"
         },
         {
-          "format": "PDF_DOCUMENT",
-          "type": "DOWNLOAD_RMARKDOWN"
+          "dashboardId": "d6cxNOi",
+          "type": "DASHBOARD_LINK"
         }
       ]
     }
