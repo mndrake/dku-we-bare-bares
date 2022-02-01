@@ -1,5 +1,5 @@
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-%config Completer.use_jedi = False
+#%config Completer.use_jedi = False
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # -*- coding: utf-8 -*-
