@@ -32,7 +32,7 @@
     {
       "tiles": [
         {
-          "behavior": "MODAL",
+          "behavior": "INLINE_AUTO_SAVE",
           "params": [
             {
               "name": "variable1",
