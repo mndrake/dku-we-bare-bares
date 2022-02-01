@@ -126,6 +126,8 @@
   },
   "name": "We Bare Bares",
   "projectStatus": "Sandbox",
+  "imgPattern": 2,
+  "showInitials": false,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -179,6 +181,13 @@
     "displayedState": {
       "checks": []
     }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643743888071
   },
   "creationTag": {
     "versionNumber": 0,
