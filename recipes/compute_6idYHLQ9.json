@@ -3,7 +3,37 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
-    "customConfig": {},
+    "customConfig": {
+      "random_seed": 1337,
+      "train_ratio": 0.8,
+      "gpu_usage": "all",
+      "gpu_memory_allocation_mode": "all",
+      "gpu_memory_limit": 100,
+      "layer_to_retrain": "last",
+      "layer_to_retrain_n": 2,
+      "model_dropout": 0,
+      "model_reg": {
+        "l1": 0,
+        "l2": 0
+      },
+      "model_optimizer": "adam",
+      "model_learning_rate": 0.001,
+      "batch_size": 32,
+      "nb_epochs": 10,
+      "nb_steps_per_epoch": 50,
+      "nb_validation_steps": 25,
+      "model_custom_params_opti": [],
+      "n_augmentation": 2,
+      "model_custom_params_data_augmentation": [],
+      "data_augmentation": false,
+      "tensorboard": true,
+      "model_pooling": "avg",
+      "image_width": 197,
+      "image_height": 197,
+      "should_use_gpu": false,
+      "col_filename": "path",
+      "col_label": "label"
+    },
     "containerSelection": {
       "containerMode": "INHERIT"
     }
@@ -53,11 +83,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643751094640
+    "lastModifiedOn": 1643751128399
   },
   "creationTag": {
     "versionNumber": 0,
