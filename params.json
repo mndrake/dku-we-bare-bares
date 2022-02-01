@@ -28,6 +28,15 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "classification_results_summary",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
       }
     ]
   },
@@ -221,11 +230,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643754335217
+    "lastModifiedOn": 1643754649153
   },
   "creationTag": {
     "versionNumber": 0,
