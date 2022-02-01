@@ -36,15 +36,17 @@
     },
     "forceAuthentication": false
   },
-  "config": {},
+  "config": {
+    "retrained_model_folder": "6idYHLQ9"
+  },
   "name": "tensorboard",
   "apiKey": "KCxgZRMbsyR1jBcjDcPVZa30yGuw8bOR",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643751164309
+    "lastModifiedOn": 1643753652930
   },
   "creationTag": {
     "versionNumber": 0,
