@@ -7,10 +7,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
+              "top": 0,
+              "left": 0,
               "width": 4,
-              "height": 5
+              "height": 4
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -34,11 +34,11 @@
   "name": "We Bare Bares\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643754096885
+    "lastModifiedOn": 1643754113550
   },
   "creationTag": {
     "versionNumber": 0,
