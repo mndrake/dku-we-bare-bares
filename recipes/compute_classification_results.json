@@ -3,7 +3,14 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
-    "customConfig": {},
+    "customConfig": {
+      "max_nb_labels": 5,
+      "min_threshold": 0,
+      "gpu_usage": "all",
+      "gpu_memory_allocation_mode": "memory_growth",
+      "gpu_memory_limit": 100,
+      "should_use_gpu": false
+    },
     "containerSelection": {
       "containerMode": "INHERIT"
     }
@@ -45,11 +52,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1643753296667
+    "lastModifiedOn": 1643753315634
   },
   "creationTag": {
     "versionNumber": 0,
