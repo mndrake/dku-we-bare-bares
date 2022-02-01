@@ -5,18 +5,18 @@
   "name": "predict-image",
   "active": false,
   "creationTag": {
-    "versionNumber": 6,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1643754288303
-  },
-  "versionTag": {
     "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1643754592793
+  },
+  "versionTag": {
+    "versionNumber": 8,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1643754617082
   },
   "checklists": {
     "checklists": []
@@ -97,7 +97,13 @@
         "delayBetweenRetries": 10,
         "maxRetriesOnFail": 0,
         "params": {
-          "builds": [],
+          "builds": [
+            {
+              "type": "DATASET",
+              "itemId": "classification_results_summary",
+              "partitionsSpec": ""
+            }
+          ],
           "jobType": "NON_RECURSIVE_FORCED_BUILD",
           "refreshHiveMetastore": true,
           "proceedOnFailure": false
